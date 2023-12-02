@@ -7,6 +7,10 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## View
+![image](https://github.com/SardorKamoliddinov/hand-detection/assets/111947544/b3a04463-c7fd-4b26-bb81-07be34c35f68)
+![image](https://github.com/SardorKamoliddinov/hand-detection/assets/111947544/84dcb2dc-3c3b-4df1-843b-7bdd7822124f)
+![image](https://github.com/SardorKamoliddinov/hand-detection/assets/111947544/65356d33-7c82-44fa-a4c4-6d415301e339)
+![image](https://github.com/SardorKamoliddinov/hand-detection/assets/111947544/3009a728-e443-44ed-904a-cd48804b9c2c)
 
 
 ## Additionally
