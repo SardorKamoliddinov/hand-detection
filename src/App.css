@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,16 +8,40 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, #844FFF 50%, #FF4F84 50%);
+  background-position: 0%;
+  color: white;
+  background-size: 200%;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.4s;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover{
+  background-position: 100%;
+}
+.camera{
+  position: relative;
+}
+.result{
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.4s;
+}
+.result .hasPhoto{
+  left: 0;
 }
